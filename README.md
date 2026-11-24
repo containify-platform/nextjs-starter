@@ -1,5 +1,7 @@
 # Next.js starter
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/nextjs)
+
 A minimal [Next.js](https://nextjs.org/) app (App Router, `standalone` output) with Postgres,
 ready to deploy on [Containify](https://containify.cloud).
 
@@ -24,6 +26,10 @@ Open http://localhost:3000.
 
 ## Deploy on Containify
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/nextjs)
+
+One click deploys it on [Containify](https://containify.cloud). The [template page](https://containify.cloud/templates/nextjs) shows what it creates, and passwords, connection strings and the HTTPS address are filled in for you.
+
 Deploy the **Next.js starter** template from the Containify catalogue. It adds this app, built
 from its Dockerfile, and a private Postgres database, with `DATABASE_URL` already set and
 `node scripts/migrate.mjs` as the pre-deploy command, so migrations run before each release
@@ -41,3 +47,7 @@ Dockerfile's build stage.
 ## License
 
 MIT
+
+---
+
+Made by [Containify](https://containify.cloud): deploy apps, databases and workers from a Git repo or an image, with per-second billing. [Docs](https://containify.cloud/docs) · [Templates](https://containify.cloud/templates)
